@@ -1,4 +1,4 @@
-# Bank-Managment-System<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Bank Management System</title>

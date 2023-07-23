@@ -1,38 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Bank Management System</title>
-</head>
-<body>
-    <h1>Bank Management System</h1>
-    <p>The Bank Management System is a Java-based project that provides functionalities for managing a bank, including branches, clients, employees, managers, and transactions. It is designed to handle various banking operations efficiently.</p>
+# Bank Management System
 
-    <h2>Project Files</h2>
-    <ul>
-        <li><code>Bank.java</code>: Contains the Bank class, which represents the main bank entity and manages branches and clients.</li>
-        <li><code>BankManagementSystem.java</code>: The main class that serves as the entry point of the application.</li>
-        <li><code>Branch.java</code>: Defines the Branch class, which contains branch-specific information and manages employees and managers.</li>
-        <li><code>Client.java</code>: Represents the Client class, which stores client details and transactions.</li>
-        <li><code>Employee.java</code>: Contains the Employee class, representing bank employees and their information.</li>
-        <li><code>Manager.java</code>: Represents the Manager class, managing branch operations and employees.</li>
-        <li><code>Transaction.java</code>: Represents the Transaction class, storing transaction-related information.</li>
-    </ul>
+The Bank Management System is a Java-based project that provides functionalities for managing a bank, including branches, clients, employees, managers, and transactions. It is designed to handle various banking operations efficiently.
 
-    <h2>Functionality</h2>
-    <p>The Bank Management System provides the following functionality:</p>
-    <ul>
-        <li>Adding and managing branches, clients, employees, and managers.</li>
-        <li>Handling client transactions and storing transaction history.</li>
-    </ul>
+## Project Files
 
-    <h2>Usage</h2>
-    <p>The Bank Management System is implemented in Java. To run the project, ensure you have a Java Development Kit (JDK) installed. You can compile and run the project using a Java IDE or the command line.</p>
-    <pre><code>javac BankManagementSystem.java</code></pre>
-    <pre><code>java BankManagementSystem</code></pre>
+- `Bank.java`: Contains the Bank class, which represents the main bank entity and manages branches and clients.
+- `BankManagementSystem.java`: The main class that serves as the entry point of the application.
+- `Branch.java`: Defines the Branch class, which contains branch-specific information and manages employees and managers.
+- `Client.java`: Represents the Client class, which stores client details and transactions.
+- `Employee.java`: Contains the Employee class, representing bank employees and their information.
+- `Manager.java`: Represents the Manager class, managing branch operations and employees.
+- `Transaction.java`: Represents the Transaction class, storing transaction-related information.
 
-    <h2>Note</h2>
-    <p>This project serves as a simple representation of a bank management system and might not include all real-world banking functionalities. It is meant for educational purposes and can be extended for additional features and improvements.</p>
+## Functionality
 
-    <p>Thank you for your interest in the Bank Management System project! We hope you find it useful for understanding the basics of managing banking operations using Java.</p>
-</body>
-</html>
+The Bank Management System provides the following functionality:
+
+- Adding and managing branches, clients, employees, and managers.
+- Handling client transactions and storing transaction history.
+
+## Usage
+
+The Bank Management System is implemented in Java. To run the project, ensure you have a Java Development Kit (JDK) installed. You can compile and run the project using a Java IDE or the command line.
+
+Compile the project:
+```bash
+javac BankManagementSystem.java
+## Run the project:
+java BankManagementSystem
